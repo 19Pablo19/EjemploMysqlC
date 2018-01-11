@@ -21,7 +21,7 @@ namespace EjemploMysqlC
 
         //Este ejemplo conectara con una base de datos Mysql
 
-        //Necesita 5 parametros
+        //Necesita 5 parametros.
         //Server: Laptop o el nombre dns del servidor
         //Databse: nombre de la BBDD
         //Uid: Usuario(No se puede dejar en blanco)
