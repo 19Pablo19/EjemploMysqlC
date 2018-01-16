@@ -18,6 +18,7 @@ namespace EjemploMysqlC
 {
     public partial class Form1 : Form
     {
+        //Commit de prueba
 
         //Este ejemplo conectara con una base de datos Mysql
 
