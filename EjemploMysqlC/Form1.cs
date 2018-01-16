@@ -53,7 +53,7 @@ namespace EjemploMysqlC
 
             conn = new MySqlConnection("Server = 172.16.4.129; Database = pokedex; Uid = win; Pwd = win; Port = 8889");
             conn.Open();
-
+            //ssssss
             comando = new MySqlCommand("Select name from pokemon", conn);
             resultado = comando.ExecuteReader();
             datos.Load(resultado);
