@@ -50,6 +50,16 @@ namespace EjemploMysqlC
         public Form1()
         {
             InitializeComponent();
+
+            conn = new MySqlConnection("Server = 172.16.4.129; Database = pokedex; Uid = win; Pwd = win; Port = 8889");
+            conn.Open();
+
+            comando = new MySqlCommand("Select name from pokemon", conn);
+            resultado = comando.ExecuteReader();
+            datos.Load(resultado);
+            conn.Close();
+            dataGridView1.DataSource = datos;
+            
         }
     }
 }
